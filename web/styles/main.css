@@ -1,0 +1,76 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 10, 2023, 3:32:17 p.m.
+    Author     : chira
+*/
+
+/*full page css*/
+*{
+    background-color:beige;
+}
+/*body css*/
+body{
+    padding:5px 18px;
+    font-family: sans-serif;
+    border:1px solid black;
+}
+/*logo and heading css*/
+.logo-heading{
+    overflow: hidden;
+    padding:0px 10px;
+}
+.logo-heading img{
+  float: left;
+  padding: 15px;
+  padding-right: 75px;
+  margin-top: 12px;
+}
+.logo-heading h1, h2{
+    text-align:left;
+    margin-top:35px;
+}
+.logo-heading h1{
+    margin-bottom: 0px;
+    color:#FFCC00;
+}
+.logo-heading h2{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-style: italic;
+    color:green;
+}
+/*nav css*/
+nav ul{
+  list-style-type: none;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+nav li{
+  display: inline-block;
+  font-size: 20px;
+  padding: 5px 20px;
+}
+nav ul li a{
+    padding:5px 2px;
+    color:green;
+}
+hr{
+    padding:0;
+    border-color:#FFCC00;
+}
+/*CGIndex main css*/
+.main{
+    padding:5px 20px;
+}
+.label{
+    margin-bottom: 10px;
+}
+label{
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
