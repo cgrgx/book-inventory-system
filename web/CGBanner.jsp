@@ -29,11 +29,16 @@
                         <a href="./CGRegister.jsp">Register</a>
                     </li>
                     <li>
+                        <a href="CGLoan">eLoan</a>
+                    </li>
+                    <li>
+                        <a href="./CGECart.jsp">eCart</a>
+                    </li>
+                    <li>
                         <a href="./CGAdmin.jsp">Admin</a>
                     </li>
+                    
                     <hr>
                 </ul>
             </nav>
         </header>
-    </body>
-</html>

@@ -1,17 +1,9 @@
-<%-- 
-    Document   : CGAdmin
-    Created on : Feb 10, 2023, 4:14:36 p.m.
-    Author     : chira
---%>
+<!--jstl tag-->
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<c:import url="CGBanner.jsp" />
+        <main>
+            <h1>Admin: Data Maintenance</h1>
+            <a href="/CGClub/CGDisplayBooks">Maintain Books</a>
+        </main>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
-</html>
+<c:import url="CGFooter.jsp" />

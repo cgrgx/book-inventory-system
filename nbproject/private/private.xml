@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/PROG2240/CGClub/src/java/club/cart/CGCartServlet.java</file>
+            <file>file:/C:/PROG2240/CGClub/web/CGBanner.jsp</file>
+            <file>file:/C:/PROG2240/CGClub/web/CGECart.jsp</file>
+            <file>file:/C:/PROG2240/CGClub/src/java/club/business/ECart.java</file>
+            <file>file:/C:/PROG2240/CGClub/src/java/club/cart/CGClearCartServlet.java</file>
+            <file>file:/C:/PROG2240/CGClub/src/java/club/cart/CGLoanServlet.java</file>
+            <file>file:/C:/PROG2240/CGClub/src/java/club/business/ELoan.java</file>
+        </group>
+    </open-files>
+</project-private>

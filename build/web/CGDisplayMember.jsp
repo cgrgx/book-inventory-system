@@ -1,18 +1,6 @@
-<%-- 
-    Document   : CGDisplayMember
-    Created on : Feb 10, 2023, 6:34:29 p.m.
-    Author     : chira
---%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>CG Programming Club</title>
-    </head>
-    <body>
-        <header><jsp:include page="CGBanner.jsp" /></header>
+<!--jstl tag-->
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<c:import url="CGBanner.jsp" />
         <main>
             <h3>Thanks for joining our club!</h3>
             <p>Here is the information you entered: </p>
@@ -37,6 +25,4 @@
             <button><a href="./CGRegister.jsp">Return</a></button>
             
         </main>
-        <footer><jsp:include page="CGFooter.jsp" /></footer>
-    </body>
-</html>
+<c:import url="CGFooter.jsp" />

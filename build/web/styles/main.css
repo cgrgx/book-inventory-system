@@ -56,11 +56,22 @@ nav li{
 }
 nav ul li a{
     padding:5px 2px;
+    text-decoration: underline;
     color:green;
 }
 hr{
     padding:0;
     border-color:#FFCC00;
+}
+a:link{
+    color: #663300;
+}
+a:visited{ 
+    color: green;
+}
+a:hover{
+
+    color: #FFCC00
 }
 /*CGIndex main css*/
 .main{
@@ -73,4 +84,15 @@ label{
     display: inline-block;
     width: 150px;
     text-align: right;
+}
+
+/*CGAdmin*/
+
+main a{
+    margin-top:-20px;
+    font-size:20px;
+    display:inline-block;
+}
+.button{
+    
 }

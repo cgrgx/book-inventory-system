@@ -1,19 +1,6 @@
-<%-- 
-    Document   : CGRegister
-    Created on : Feb 10, 2023, 4:14:25 p.m.
-    Author     : chira
---%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>CG Programming Club</title>
-        
-    </head>
-    <body>
-        <header><jsp:include page="CGBanner.jsp" /></header>
+<!--jstl tag-->
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<c:import url="CGBanner.jsp" />
         
         <main>
             <section>
@@ -53,11 +40,9 @@
                     </select>
                     </div>
                     <div class="label">
-                    <input type="submit" value="Register Now!">  <input type="reset" value="Reset">
+                    <input class="button" type="submit" value="Register Now!">  <input class="button" type="reset" value="Reset">
                     </div>
                 </form>
             </section>                  
         </main>
-        <footer><jsp:include page="CGFooter.jsp" /></footer>
-    </body>
-</html>
+<c:import url="CGFooter.jsp" />
