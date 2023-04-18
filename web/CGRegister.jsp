@@ -5,14 +5,15 @@
         <main>
             <section>
                 <h3>New Member Registration Form</h3>
-                <form method="post" action="./CGDisplayMember.jsp">
+                <form method="get" action="CGMemberAdmin">
+                    <input type="hidden" name="action" value="addMember">
                     <div class="label">
                     <label>Full Name: </label>
-                    <input type="text" name="fName" style="width:200px" required>
+                    <input type="text" name="fName" style="width:200px" >
                     </div>
                     <div class="label">
                     <label >Email: </label>
-                    <input type="email" name="email" style="width:300px" required>
+                    <input type="email" name="email" style="width:300px" >
                     </div>
                     <div class="label">
                     <label >Phone: </label>
@@ -40,7 +41,9 @@
                     </select>
                     </div>
                     <div class="label">
-                    <input class="button" type="submit" value="Register Now!">  <input class="button" type="reset" value="Reset">
+<!--                        <a href="CGMemberAdmin?action=addMember"></a>-->
+                        <input type="submit" value="Register">
+                        <input class="button" type="reset" value="Reset">
                     </div>
                 </form>
             </section>                  

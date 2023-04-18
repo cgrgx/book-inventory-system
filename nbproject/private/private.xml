@@ -3,13 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/PROG2240/CGClub/src/java/club/cart/CGCartServlet.java</file>
             <file>file:/C:/PROG2240/CGClub/web/CGBanner.jsp</file>
-            <file>file:/C:/PROG2240/CGClub/web/CGECart.jsp</file>
-            <file>file:/C:/PROG2240/CGClub/src/java/club/business/ECart.java</file>
-            <file>file:/C:/PROG2240/CGClub/src/java/club/cart/CGClearCartServlet.java</file>
-            <file>file:/C:/PROG2240/CGClub/src/java/club/cart/CGLoanServlet.java</file>
-            <file>file:/C:/PROG2240/CGClub/src/java/club/business/ELoan.java</file>
+            <file>file:/C:/PROG2240/CGClub/web/CGDisplayMembers.jsp</file>
+            <file>file:/C:/PROG2240/CGClub/web/CGRemoveMember.jsp</file>
+            <file>file:/C:/PROG2240/CGClub/src/java/club/admin/CGMemberAdminController.java</file>
+            <file>file:/C:/PROG2240/CGClub/web/CGEditMember.jsp</file>
         </group>
     </open-files>
 </project-private>

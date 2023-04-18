@@ -4,6 +4,10 @@
         <main>
             <h1>Admin: Data Maintenance</h1>
             <a href="/CGClub/CGDisplayBooks">Maintain Books</a>
+            <c:url var="displayMembersUrl" value="/CGMemberAdmin">
+                <c:param name="action" value="displayMembers"/>
+            </c:url>
+            <a href="${displayMembersUrl}">Display Members</a>
         </main>
 
 <c:import url="CGFooter.jsp" />

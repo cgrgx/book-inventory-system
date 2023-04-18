@@ -26,7 +26,7 @@
                         <a href="./CGIndex.jsp">Home</a>
                     </li>
                     <li>
-                        <a href="./CGRegister.jsp">Register</a>
+                        <a href="CGMemberAdmin?action=addMember">Register</a>
                     </li>
                     <li>
                         <a href="CGLoan">eLoan</a>
@@ -35,7 +35,7 @@
                         <a href="./CGECart.jsp">eCart</a>
                     </li>
                     <li>
-                        <a href="./CGAdmin.jsp">Admin</a>
+                        <a href="CGMemberAdmin">Admin</a>
                     </li>
                     
                     <hr>

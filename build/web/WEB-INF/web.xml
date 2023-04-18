@@ -4,6 +4,9 @@
         <param-name>booksFilePath</param-name>
         <param-value>/WEB-INF/books.txt</param-value>
     </context-param>
+    <listener>
+        <listener-class>club.util.CartContextListener</listener-class>
+    </listener>
     <servlet>
         <servlet-name>CGDisplayBooksServlet</servlet-name>
         <servlet-class>club.admin.CGDisplayBooksServlet</servlet-class>
@@ -24,6 +27,10 @@
         <servlet-name>CGClearCartServlet</servlet-name>
         <servlet-class>club.cart.CGClearCartServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>CGMemberAdminController</servlet-name>
+        <servlet-class>club.admin.CGMemberAdminController</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>CGDisplayBooksServlet</servlet-name>
         <url-pattern>/CGDisplayBooks</url-pattern>
@@ -43,6 +50,10 @@
     <servlet-mapping>
         <servlet-name>CGClearCartServlet</servlet-name>
         <url-pattern>/CGClearCart</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CGMemberAdminController</servlet-name>
+        <url-pattern>/CGMemberAdmin</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
